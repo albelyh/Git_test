@@ -72,7 +72,6 @@ public class Application {
         }
 
     }
-
     static void saveToFile(ArrayList<Product> list, String path) {
 
         try {
