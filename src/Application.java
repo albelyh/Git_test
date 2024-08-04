@@ -84,7 +84,6 @@ public class Application {
             e.printStackTrace();
         }
     }
-
     static ArrayList<Product> loadFromFile(ArrayList<Product> list, String path) {
 
         try {
