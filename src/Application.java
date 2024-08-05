@@ -35,7 +35,7 @@ public class Application {
                     for (Product product : list) {
                         if (product.getProductName().equalsIgnoreCase(name)) {
                             search = true;
-                            System.out.println("Калорийность составляет " +  product.getCalories());
+                            System.out.println("Калорийность составляет " + (weight / 100) * product.getCalories());                          
                             System.out.println();
                             break;
                         }
